@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: lightgrey;
+}
+.box{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    border: 1px solid gray;
+    vertical-align: top;
+    position: relative;
+}
+.ml-4{
+    margin-left: -6px;
+}
+.hinhO{
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    position: absolute;
+}
+.cam{
+    background: linear-gradient(270deg, #E4631B 10.25%, rgba(243, 125, 40, 0.46) 138.5%);
+    top: 60px;
+    left: 80px;
+    z-index: 2;
+}
+.xanh{
+    background: linear-gradient(270deg, #409DE7 10.25%, #6CBCFC 138.5%);
+    top: 150px;
+    left: 160px;
+}
+.hong{
+    background: linear-gradient(270deg, #FAC3CA 10.25%, #6CBCFC 138.5%);
+    bottom: 30px;
+    right: 100px;
+}
+/* xong phan 1 */
+.card{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 12px 12px;
+    position: relative;
+}
+.border{
+    width: 180px;
+    height: 180px;
+    border: 6px solid #409de7
+}
+.hinh1{
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.hinh1 img{
+    width: 100%;
+}
+.hinh2{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.hinh2 img{
+    width: 100%;
+}
+.label-new{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: #FAC3CA;
+    color: whitesmoke;
+    padding: 4px 8px;
+}
